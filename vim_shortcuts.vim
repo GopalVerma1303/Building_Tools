@@ -15,3 +15,5 @@ y to yank those lines
 To select the whole file (:%w !pbcopy)
 
 To past complete file from the clipboard (:r !pbpaste)
+
+:set number - for displaying colomn numbers
