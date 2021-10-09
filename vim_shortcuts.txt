@@ -39,8 +39,8 @@ u  = undo (normal mode)
 ctrl + r = redo (normal mode)
 guu = convert line into lower case
 gUU = convert line into upper case
-3dd = delete 3 lines
-5yy = copy 5 lines  -->  p = paste after the cursor
+3d = delete 3 lines
+5y = copy 5 lines  -->  p = paste after the cursor
 fF go forward to F
 dw = delete from the cursor to the end of the word
 w = go forward to the next word
@@ -54,7 +54,7 @@ R = replace mode on -> '+' = replace character under the cursor with +
 $ = go to the last character of the line
 x = delete character undercursor
 + = go to the beigning of the first line
-%% = go to the matching bracket
+% = go to the matching bracket
 
 
 
