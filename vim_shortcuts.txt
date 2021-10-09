@@ -56,6 +56,6 @@ x = delete character undercursor
 + = go to the beigning of the first line
 % = go to the matching bracket
 d{ = to clear screan
-
+dd = delete complete line
 
 
