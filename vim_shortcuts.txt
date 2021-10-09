@@ -17,3 +17,8 @@ To select the whole file (:%w !pbcopy)
 To past complete file from the clipboard (:r !pbpaste)
 
 :set number - for displaying colomn numbers
+
+ctrl w and then s = for splitting screen horizontally
+ctrl w and then v = for splitting screen vertically
+ctrl w and then q = for closing splitted screen 
+ctrl a for copying from the clipboard
