@@ -34,7 +34,8 @@ shift + i = to turn on the inseting mode
 Esc  = to apply the inundation
 ========================================
 :%s/a/b/g = replace a with b 
-G  = go to the first line(in the normal mode)
+G  = go to the bottom of the file(in the normal mode)
+gg = go to the begining of the first line
 u  = undo (normal mode)
 ctrl + r = redo (normal mode)
 guu = convert line into lower case
@@ -57,5 +58,12 @@ x = delete character undercursor
 % = go to the matching bracket
 d{ = to clear screan
 dd = delete complete line
-
-
+b = go a single word back
+5~ = change the case of next 5 characters
+3ra = replace next three characters with a
+ra = replace the character with a on which the cursor is their
+O (CAPITAL O) = to put a line above
+shift+v = to select the complete line
+ctrl+v = to select that character-colomn in the code
+shift+v -> } select all
+    
