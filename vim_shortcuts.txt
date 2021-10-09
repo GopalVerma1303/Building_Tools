@@ -16,9 +16,45 @@ To select the whole file (:%w !pbcopy)
 
 To past complete file from the clipboard (:r !pbpaste)
 
-:set number - for displaying colomn numbers
-
 ctrl w and then s = for splitting screen horizontally
 ctrl w and then v = for splitting screen vertically
 ctrl w and then q = for closing splitted screen 
 ctrl a for copying from the clipboard
+
+:syntax on = to turn on the syntax colors
+:syntax off = to turn on the syntax colors
+:set number - for displaying colomn numbers
+:10 = go to line number 10
+
+FOR MULTIPLE INDUNDATION:
+========================================
+ctrl + v = turn the visual mode on
+j (4x) = to highlight nest 4 lines
+shift + i = to turn on the inseting mode
+Esc  = to apply the inundation
+========================================
+:%s/a/b/g = replace a with b 
+G  = go to the first line(in the normal mode)
+u  = undo (normal mode)
+ctrl + r = redo (normal mode)
+guu = convert line into lower case
+gUU = convert line into upper case
+3dd = delete 3 lines
+5yy = copy 5 lines  -->  p = paste after the cursor
+fF go forward to F
+dw = delete from the cursor to the end of the word
+w = go forward to the next word
+D = delete to the end of the line
+F <sp> (2x) = go back to the space 
+{f is to go forward and F is to go backward}
+diw = delete word under the cursor
+R = replace mode on -> '+' = replace character under the cursor with +
+^ = go to the first non blank character of the line
+0 = go to the first character of the line
+$ = go to the last character of the line
+x = delete character undercursor
++ = go to the beigning of the first line
+%% = go to the matching bracket
+
+
+
