@@ -67,6 +67,7 @@ shift+v = to select the complete line
 ctrl+v = to select that character-colomn in the code
 shift+v -> } select all
 gg(to get in the begining of the first line) -> dG(deleting the entire source code)in order to clear the entire screen 
+ctrl + n = to autocomplete the variable name(vim do it by observing a pattern)
 
 #keyboard macros You can start recording your keys with ESC followed by qh. Then whatever you type in vim (including commands) will be recorded. Press ESC q to stop recording. Now press @h to replay your key strokes.
 
