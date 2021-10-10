@@ -67,3 +67,15 @@ shift+v = to select the complete line
 ctrl+v = to select that character-colomn in the code
 shift+v -> } select all
 gg(to get in the begining of the first line) -> dG(deleting the entire source code)in order to clear the entire screen 
+
+#keyboard macros You can start recording your keys with ESC followed by qh. Then whatever you type in vim (including commands) will be recorded. Press ESC q to stop recording. Now press @h to replay your key strokes.
+
+#repeat action if you want to repeat an action, just type a number followed by the action. To delete 10 lines press 10dd. To press 50 lines type 50dd. You can do this for keyboard recording too, 50@h.
+
+#run commands you can run commands right from within vim. !ls runs the command ls in your terminal. You can do this for any command.
+
+#scrolling you can scroll inside vim with the keys ctrl+e and ctrl+y, no need to use the mouse
+
+#move to end/begin you can use the keys 0 and $ to move to the beginning and end of a line. No need to hold down the cursor key for several seconds.
+
+#jump to line press the keys 140G to jump to line 140. You can also use :140 if you prefer those keys.
