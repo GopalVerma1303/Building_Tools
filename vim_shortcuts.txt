@@ -66,4 +66,4 @@ O (CAPITAL O) = to put a line above
 shift+v = to select the complete line
 ctrl+v = to select that character-colomn in the code
 shift+v -> } select all
-    
+gg(to get in the begining of the first line) -> dG(deleting the entire source code)in order to clear the entire screen 
